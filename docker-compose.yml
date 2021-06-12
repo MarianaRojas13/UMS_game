@@ -31,4 +31,4 @@ services:
     networks:
       - net-gameusm
 networks:
-  net-zgamesusm:
+  net-gameusm:
