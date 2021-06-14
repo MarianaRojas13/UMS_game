@@ -13,6 +13,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('registrar_juego');
+   
+//});
+Route:: view("/","registrar_consola")->name("registrar_consola");
+//Route::get('/registrar_juego', function () {
+  //  return view('registrar_juego');
+//});
+Route:: view("/registrar_juego","registrar_juego")->name("registrar_juego");
+//Route::get('/registrar_consola', function () {
+  //  return view('registrar_consola');
+//});
+Route:: view("/ver_consola","ver_consola")->name("ver_consola");
+//Route::get('/ver_consola', function () {
+ //   return view('ver_consola');
+//});
+Route:: view("/ver_juegos","ver_juegos")->name("ver_juegos");
+//Route::get('/ver_juegos', function () {
+  //  return view('ver_juegos');
+//});
