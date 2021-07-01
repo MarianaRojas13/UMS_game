@@ -22,4 +22,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::get("marcas/get",[ConsolasController::class,"getMarcas"]);
 //Route:: get("url",[controlador::class,"metodo"]);
 Route::get("consolas/get",[ConsolasController::class,"getConsolas"]);
-Route::get("consolas/post",[ConsolasController::class,"crearConsola"]);
+Route::post("consolas/post",[ConsolasController::class,"crearConsola"]);

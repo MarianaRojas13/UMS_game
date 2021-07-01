@@ -23,12 +23,14 @@ public function getConsolas(){
     return $consolas;
 }
 /*Esta funcion va a registrar ina consola de ejemplo */
-public function crearConsola(){
-//equivalente a un insert into 
+public function crearConsola(Request $request){
+//equivalente a un insert into
+    $input=$request->all(); 
     $consola=new Consola();
-    $consola->nombre="Nontendo Switch";
-    $consola->marca="Nontendo";
-    $consola->anio=2015;
+    $consola->nombre=$input["nonbre"];
+    $consola->marca=$input["marca"];
+    $consola->anio=$input["anio"];
     $consola->save();
+    return $consola;
 }
 }

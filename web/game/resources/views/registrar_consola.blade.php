@@ -32,6 +32,7 @@
 </main>
 @endsection
 @section("javascript")
+    <script scr="{{asset("js/servicios/consolasService.js")}}"></script>
     <script src="{{asset("js/registrar_consola.js")}}"></script>
 @endsection
 
