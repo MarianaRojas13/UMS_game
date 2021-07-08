@@ -7,8 +7,8 @@ const getConsolas= async ()=>{
 //crear consola
 const crearConsola= async (consola)=>{
     //Extructura de peticion post al servidor de axios
-    let resp=await axios.post("api/consolas/post",consola,{
-        headers:{
+    let resp=await axios.post("api/consolas/post",consola, {
+        headers: {
             'Content-Type':'application/json'
         }
     });

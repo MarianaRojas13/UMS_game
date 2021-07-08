@@ -24,7 +24,7 @@
                   </div>
               </div>
               <div class="card-footer d-grid gap-1">
-                  <button type="button" class="btn btn-primary">Registrar</button>
+                  <button type="button" class="btn btn-primary"id ="registrar-btn">Registrar</button>
               </div>
           </div>
       </div>
